@@ -78,4 +78,13 @@ Hosted Zone:
 Mumbai:
 ![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/8a2d08cbe7645c6d8ab73ead8a06b14ff5d50769/img/hc.mum.png)
 singapore:
+![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/b3c393be1bfba089a29ea6241144c3c36a8b1711/img/hc.singa.png)
+
+🔍 Step 5: Testing Disaster Recovery
+=
+• Stop all EC2 instances in Region A → Route 53 will failover to Region B.
+
+• Restart Region A instances → traffic will return to primary region.
+
+Mumbai Region:
 ![image_alt]()
