@@ -36,4 +36,5 @@ Create an Auto Scaling Group (ASG) using this launch template.
 Repeat steps in Region B, but update User Data: echo "Hello from singapore region" > /var/www/html/index.html
 ![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/9235b934dfffa36d9f78647d725c4aad56def1c7/img/EC2-mumbai.png)
 ![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/72ae5aa42b84dd80eba636b6abf1026d46de768d/img/lt.png)
+![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/1600131494add1e61ca86d75cae6d5576a92ec55/img/ec2-singapore.png)
 
