@@ -9,7 +9,7 @@ Setup Guide – High Availability & Disaster Recovery
 
      o	CIDR block: 10.0.0.0/16
      o	Create 2 public subnets in different AZs.
-3.Create VPC-2 in Region B (e.g., us-east-1 – N. Virginia).
+3.Create VPC-2 in Region B (e.g., us-southeast-1 – Singapore).
 
     o	CIDR block: 10.0.0.0/16
     o	Create 2 public subnets in different AZs.
