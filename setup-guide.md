@@ -55,5 +55,6 @@ In Region A, create an Application Load Balancer (ALB).
     o	Target Group → attach the ASG.
     o	Listener → HTTP (80) forward to Target Group.
 Repeat the same steps in Region B.
+![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/acfaec58d11cbd96f0eaf0fda2a8355ece2018a6/img/tg.mum.png)
 
 
