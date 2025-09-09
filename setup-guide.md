@@ -76,5 +76,6 @@ Test DNS:
 Hosted Zone:
 ![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/87e6e6cbef1862e07c285646fdd0e32e5b2458ab/img/hosted.zone.png)
 Mumbai:
+![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/8a2d08cbe7645c6d8ab73ead8a06b14ff5d50769/img/hc.mum.png)
+singapore:
 ![image_alt]()
-
