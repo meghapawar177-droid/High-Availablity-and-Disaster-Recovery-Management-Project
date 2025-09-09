@@ -90,4 +90,19 @@ Mumbai Region:
 ![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/a4427f290cad0dc56817d6316d5da2391dad11fa/img/mum.out.png)
 
 Mumbai region stopped getting an error :-
+![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/4decf6aceb336b245af53b69ab911906bb32843d/img/output.png)
+
+Virginia Region
+![image_alt]()
+=
+✅ Final Architectur
+=
+• 2 VPCs across 2 AWS regions.
+
+• Auto Scaling Groups with 2 EC2 instances each.
+
+• Load Balancer per region.
+
+• Route 53 DNS Failover between regions.
+
 
