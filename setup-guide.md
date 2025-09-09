@@ -87,4 +87,7 @@ singapore:
 • Restart Region A instances → traffic will return to primary region.
 
 Mumbai Region:
-![image_alt]()
+![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/a4427f290cad0dc56817d6316d5da2391dad11fa/img/mum.out.png)
+
+Mumbai region stopped getting an error :-
+
