@@ -34,4 +34,5 @@ Create an Auto Scaling Group (ASG) using this launch template.
     o	Attach ASG to 2 subnets in Region A.
     o	Min size = 1, Desired = 2, Max = 4.
 Repeat steps in Region B, but update User Data: echo "Hello from singapore region" > /var/www/html/index.html
+![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/9235b934dfffa36d9f78647d725c4aad56def1c7/img/EC2-mumbai.png)
 
