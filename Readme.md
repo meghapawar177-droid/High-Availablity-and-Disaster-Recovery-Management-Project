@@ -1,6 +1,9 @@
 📌 Project Objective :-
+=
 The High-Availability and Disaster Recovery (HA/DR) Project is designed to ensure business continuity, minimize downtime, and protect critical applications/data from system failures or catastrophic events. This setup combines high availability (maintaining uptime through redundancy and failover) with disaster recovery (restoring services quickly after outages or disasters). The goal is to provide a resilient IT infrastructure that supports uninterrupted services and quick recovery from failures.
+
 📌 Project Description:-
+=
 Objective
 
 • Deliver an always-available, fault-tolerant infrastructure.
@@ -35,7 +38,9 @@ Workflow:-
 
 • Teams use documented DR Playbooks for failover/failback procedures.
 
+
 📌 Architecture Flow :-
+=
 The architecture typically includes:
 
 • Primary Data Center (Active Site): o Hosts production workloads and services. o Configured for high availability with load balancers, clustering, and replication.
@@ -46,7 +51,9 @@ The architecture typically includes:
 
 • Database Replication: o Real-time or asynchronous replication between primary and secondary databases.
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b0749a1f-8c87-4c7f-b52f-3f9241e88fdb" />
+
 📌 Benefits of This Setup:-
+=
 • High Availability: Ensures applications remain online with minimal service disruption.
 
 • Disaster Resilience: Provides quick recovery from natural disasters, outages, or cyberattacks.
