@@ -56,5 +56,21 @@ In Region A, create an Application Load Balancer (ALB).
     o	Listener → HTTP (80) forward to Target Group.
 Repeat the same steps in Region B.
 ![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/acfaec58d11cbd96f0eaf0fda2a8355ece2018a6/img/tg.mum.png)
+![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/1d45b39348f3ea2629b885a70b3a2518297f2132/img/elb-mum.png)
 
+🌍 Step 4: Configure Route 53 for Failover
+=
+Go to Route 53 → Hosted Zones.
+
+Create a new hosted zone (e.g., myhaapp.com).
+
+Add 2 A-records with failover policy:
+
+    o	Record 1 (Primary) → Alias → ALB DNS name (Region A).
+    o	Record 2 (Secondary) → Alias → ALB DNS name (Region B).
+    o	Set health check for Region A load balancer.
+Test DNS:
+
+    o	If Region A is UP → traffic goes to Region A.
+    o	If Region A is DOWN → Route 53 sends traffic to Region B.
 
