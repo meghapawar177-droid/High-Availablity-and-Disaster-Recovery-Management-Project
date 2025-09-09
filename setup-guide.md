@@ -42,4 +42,18 @@ Repeat steps in Region B, but update User Data: echo "Hello from singapore regio
 Autoscaling Group(ASG)
 =
 ![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/3619f8cffab33b7b2d8f2684c64c0ff271910c2b/img/ag-mum.png)
+![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/c95b62c887aeef10091822b095c7a50e927859d7/img/fag.si.png)
+=
+🌐 Step 3: Setup Target Group and Load Balancers
+=
+In Region A, create an Target Group.
+
+      select EC2 instances that you want to target.
+In Region A, create an Application Load Balancer (ALB).
+
+    o	Attach ALB to the 2 subnets in different AZs.
+    o	Target Group → attach the ASG.
+    o	Listener → HTTP (80) forward to Target Group.
+Repeat the same steps in Region B.
+
 
