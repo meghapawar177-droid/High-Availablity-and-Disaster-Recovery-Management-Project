@@ -73,4 +73,8 @@ Test DNS:
 
     o	If Region A is UP → traffic goes to Region A.
     o	If Region A is DOWN → Route 53 sends traffic to Region B.
+Hosted Zone:
+![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/87e6e6cbef1862e07c285646fdd0e32e5b2458ab/img/hosted.zone.png)
+Mumbai:
+![image_alt]()
 
