@@ -41,5 +41,5 @@ Repeat steps in Region B, but update User Data: echo "Hello from singapore regio
 
 Autoscaling Group(ASG)
 =
-
+![image_alt](https://github.com/meghapawar177-droid/High-Availablity-and-Disaster-Recovery-Management-Project/blob/3619f8cffab33b7b2d8f2684c64c0ff271910c2b/img/ag-mum.png)
 
